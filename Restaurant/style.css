@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@500&family=Fasthand&family=Inter&family=Nunito+Sans:wght@400;500;700&family=Paytone+One&family=Poppins:wght@300;400;600;800&family=Smooch&family=Ysabeau+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Nunito+Sans:wght@400;500;700&family=Paytone+One&family=Poppins:wght@300;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Fasthand&family=Nunito+Sans:wght@400;500;700&family=Paytone+One&family=Poppins:wght@300;600;800&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Fasthand&family=Nunito+Sans:wght@400;500;700&family=Paytone+One&family=Poppins:wght@300;600;800&family=Smooch&family=Ysabeau+SC:wght@500&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    
+   
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container .content{
+    text-align: center;
+}
+.container .content h3{
+    font-size: 30px;
+    color: #fff;
+}
+.container .content h3 span{
+    background: #e68a00;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.container .content h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+}   
+.container .content h1 span{
+    color: #e68a00;
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 20px;
+    
+}
+.container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+.container .content .btn{
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 16px;
+    background: #272525;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.container .content .btn:hover{
+    background: #e68a00;
+    
+}
+.form-container{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    background: #eee;
+
+}
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+}
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+body .icon i{
+    font-size: 80%;
+    margin-bottom: 100px;
+    color: #333;
+    margin-left: 100%;
+}
+.form-container form input,
+.form-container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+.form-container form select option{
+    background: #fff;
+}
+.form-container form .form-btn{
+    background: #f5d6b3;
+    color: #e68a00;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.form-container form .form-btn:hover{
+    background: #e68a00;
+    color: #fff;
+}
+.form-container form p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.form-container form p a{
+    color: #e68a00;
+    
+}
+.form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: #e68a00;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.363),rgba(8, 8, 8, 0.432)),url(pexels-thought-catalog-2228559.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.user{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(32, 26, 26, 0.384),rgba(29, 23, 23, 0.411)),url(terrace-hotel-stuffed-with-soft-furnitures-green-space_114579-2724.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.admin{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(19, 16, 16, 0.521),rgba(14, 12, 12, 0.486)),url(pexels-matheus-bertelli-17109120.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+
+}
